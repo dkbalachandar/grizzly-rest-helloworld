@@ -19,7 +19,7 @@ public class Grizzly {
         ctx.deploy(server);
         try {
             server.start();
-            System.out.println("Press any key to stop the server");
+            System.out.println("Press any key to stop the server....");
             System.in.read();
         } finally {
             server.shutdownNow();
